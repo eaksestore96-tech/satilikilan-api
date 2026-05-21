@@ -1,0 +1,26 @@
+{
+  "name": "satilikilan-api",
+  "version": "1.0.0",
+  "description": "satilikilan.com Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "redis": "^4.6.12",
+    "iyzipay": "^2.0.63"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
